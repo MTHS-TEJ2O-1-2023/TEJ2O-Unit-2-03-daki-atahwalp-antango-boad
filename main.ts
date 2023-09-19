@@ -1,8 +1,12 @@
-/* Copyright (c) 2020 MTHS All rights reserved
+/* Copyright (c) 2023 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
- * This program ...
+ * Created by: Daki A.B
+ * Created on: Sep 2023
+ * This program MicroBit does basic math
 */
 
-basic.showString('Hello, World!')
+basic.clearScreen()
+basic.pause(1000)
+
+basic.showString('10 + 5 ^ 5 =' + (10 + 5 ** 5).toString())
+basic.showIcon(IconNames.Happy)
