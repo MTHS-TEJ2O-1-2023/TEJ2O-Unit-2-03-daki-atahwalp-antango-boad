@@ -8,5 +8,10 @@
 basic.clearScreen()
 basic.pause(1000)
 
-basic.showString('10 + 5 ^ 5 =' + (10 + 5 ** 5).toString())
+basic.showString('A = 3 x 5 ='+ (3 * 5).toString())
+
+basic.clearScreen()
+basic.pause(1000)
+
+basic.showString('P = 2(3 + 5) =' + (2*(3 + 5)).toString())
 basic.showIcon(IconNames.Happy)
